@@ -7,9 +7,13 @@ class calculator:
 	
     def sub(self, x, y):
 	self.x = x
-        return (self.x - y)
+        z = y
+        self.y = z
+        return (self.x - self.y)
 	
     def mul(self, x, y):
+        self.x = x
+        self.y = y
 	return (x * y)
 
     def dev(self, x , y):
