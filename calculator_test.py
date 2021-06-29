@@ -5,12 +5,14 @@ class calculator:
         self.y = y
 	return (self.x + self.y)
 	
-    def sub(self, x, y):
+    def sub(self, x, r):
 	self.x = x
-        self.k = y
-        return (self.x - self.k)
+        self.y = r
+        return (self.x - self.y)
 	
     def mul(self, x, y):
+        self.x = x
+        self.y = y
 	return (x * y)
 
     def dev(self, x , y):
